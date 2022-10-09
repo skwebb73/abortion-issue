@@ -2,13 +2,14 @@
   color: white;
   font-family: playfair-display, serif;
   font-size: 5em;
+  margin-top: 300px !important;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .18em; /* Adjust as needed */
   animation:
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+  typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
 }
 
 
@@ -27,10 +28,38 @@
   background: linear-gradient(to right, white, 50%, transparent);
   width: 500px;
   margin-left: 20px;
+  margin-top: 18%;
+}
+
+.scroll-text > h1{
+  display: none;
 }
 
 h2{
   font-family: noto-sans, sans-serif;
+  font-weight: 500;
   font-size: 35px;
   color: black;
 }
+
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section0,
+	#section1,
+	#section2,
+	#section3,
+  #section4,
+  #section5,
+    #slide1,
+    #slide2{
+		background-size: cover;
+		background-attachment: fixed;
+	}
