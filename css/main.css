@@ -95,3 +95,61 @@ h2{
   color: #13294B;
   margin-right: 100px;
 }
+
+/* photo gallery css */
+
+.photo-container {
+  position: relative;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.photo-container:hover .image {
+  opacity: 0.3;
+}
+
+.photo-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 16px 16px;
+  font-family: playfair-display, serif;
+  width: 200px;
+}
+
+.photo-gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/*
+Sources:
+- image hover styles adapted from W3 schools */

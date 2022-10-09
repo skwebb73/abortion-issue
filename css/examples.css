@@ -338,3 +338,11 @@ h1{
   background-image: url("../images/slide-7-background.png");
   background-size: cover;
 }
+
+#section8{
+  background-image: linear-gradient(white, white, white);
+}
+
+#section9{
+  background-image: linear-gradient(blue, blue, blue);
+}
