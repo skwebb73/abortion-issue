@@ -331,5 +331,10 @@ h1{
 }
 
 #section6{
-	background-image: linear-gradient(grey,white,white);
+	background-image: linear-gradient(grey,#4B9CD3, #4B9CD3, #4B9CD3,#4B9CD3,#4B9CD3,#4B9CD3,#4B9CD3);
+}
+
+#section7{
+  background-image: url("../images/slide-7-background.png");
+  background-size: cover;
 }

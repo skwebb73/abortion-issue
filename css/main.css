@@ -64,7 +64,34 @@ h2{
 		background-attachment: fixed;
 	}
 
-  p{
-    color: black !important;
+  .cd-horizontal-timeline p{
+    color: #13294B !important;
     font-family: myriad-pro, sans-serif;
   }
+
+  .cd-horizontal-timeline{
+    margin-top: 5%;
+  }
+
+  .cd-horizontal-timeline h2{
+    color: #13294B;
+  }
+
+
+.timeline-head{
+  font-size: 60px;
+  font-family: noto-sans, sans-serif;
+  font-weight: bold;
+  margin-top: 200px;
+  color: #13294B;
+}
+
+.slide-head{
+  font-size: 60px;
+  font-family: noto-sans, sans-serif;
+  font-weight: bold;
+  margin-top: 100px;
+  text-align: right;
+  color: #13294B;
+  margin-right: 100px;
+}
