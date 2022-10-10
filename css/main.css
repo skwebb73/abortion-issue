@@ -262,6 +262,42 @@ quiz css */
   text-align: left;
 }
 
+.mobile-head{
+  opacity: 0;
+}
+
+@media (max-width: 600px) {
+
+  .typewriter h1{
+    display: none !important;
+  }
+
+  .mobile-head{
+    opacity: 1 !important;
+  }
+
+.scroll-text{
+  margin-left: none;
+  justify-content: center;
+}
+
+.slide-section{
+  width: 500px;
+  margin-left: -100px;
+  background-color: white;
+}
+
+.photo-gallery{
+  width: 100%;
+  height: 700px;
+}
+
+h2{
+  color: black;
+}
+
+}
+
 
 /*
 Sources:
