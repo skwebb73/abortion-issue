@@ -262,19 +262,12 @@ quiz css */
   text-align: left;
 }
 
-.mobile-head{
-  opacity: 0;
-}
 
 @media (max-width: 600px) {
 
-  .typewriter h1{
-    display: none !important;
-  }
-
-  .mobile-head{
-    opacity: 1 !important;
-  }
+.main-head{
+  display: none;
+}
 
 .scroll-text{
   margin-left: none;
