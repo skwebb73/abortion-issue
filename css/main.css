@@ -170,11 +170,11 @@ h2{
   align-items: center;
   background-color: black;
   z-index: 400;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .fade{
-  opacity: 10%;
+  opacity: 20%;
   background-color: black;
   background-image: url("../images/black.jpg");
   z-index: 200;
@@ -255,10 +255,10 @@ quiz css */
 .source-list{
   list-style-type: circle;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-family: myriad-pro, sans-serif;
   margin-left: 40px;
-  margin-top: 10px;
+  margin-top: 7px;
   text-align: left;
 }
 
