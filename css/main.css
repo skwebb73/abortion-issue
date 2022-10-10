@@ -91,11 +91,31 @@ h2{
   font-family: noto-sans, sans-serif;
   font-weight: bold;
   margin-top: 100px;
-  text-align: right;
+  text-align: center;
   color: #13294B;
   margin-right: 100px;
 }
 
+.slide-section{
+  width: 800px;
+  justify-content: right;
+  margin-right: 0px;
+  margin-left: 40%;
+}
+
+.list{
+  list-style-type: circle;
+  color: white;
+  font-size: 25px;
+  font-family: myriad-pro, sans-serif;
+  text-align: left;
+  margin: 20px;
+}
+
+
+.slide-section a{
+  color: #13294B;
+}
 /* photo gallery css */
 
 .photo-container {
@@ -181,6 +201,68 @@ h2{
   background-image: url("../images/black.jpg");
   position: absolute;
 }
+/*
+quiz css */
+
+.question{
+  color: black !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+#quiz h4{
+  font-size: 50px;
+  font-family: myriad-pro !important;
+  font-weight: bold;
+  font-size: 35px;
+  color:  #13294B;
+}
+
+#quiz{
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+#quiz-home-btn{
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#quiz-start-screen{
+  margin-top: 20px;
+}
+
+.question-container{
+  margin-top: 20px;
+}
+#quiz-counter{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.answers{
+  font-size: 15px;
+}
+
+
+.sources{
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.source-list{
+  list-style-type: circle;
+  color: white;
+  font-size: 20px;
+  font-family: myriad-pro, sans-serif;
+  margin-left: 40px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+
 /*
 Sources:
 - image hover styles adapted from W3 schools */
