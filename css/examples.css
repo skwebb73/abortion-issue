@@ -340,9 +340,9 @@ h1{
 }
 
 #section8{
-  background-image: linear-gradient(white, white, white);
+  background-image: url("../images/black.jpg");
 }
 
 #section9{
-  background-image: linear-gradient(blue, blue, blue);
+  background-image: url("../images/white.jpg");
 }

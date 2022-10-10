@@ -1,14 +1,14 @@
 .typewriter h1 {
   color: white;
   font-family: playfair-display, serif;
-  font-size: 5em;
+  font-size: 8em;
   margin-top: 300px !important;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .18em; /* Adjust as needed */
   animation:
-  typing 3.5s steps(30, end),
+  typing 3s steps(30, end),
   blink-caret .5s step-end infinite;
 }
 
@@ -25,10 +25,10 @@
 }
 
 .scroll-text{
-  background: linear-gradient(to right, white, 50%, transparent);
+  background: linear-gradient(to right, grey, 50%, transparent);
   width: 500px;
   margin-left: 20px;
-  margin-top: 18%;
+  margin-top: 19%;
 }
 
 .scroll-text > h1{
@@ -36,10 +36,10 @@
 }
 
 h2{
-  font-family: noto-sans, sans-serif;
-  font-weight: 500;
+  font-family: myriad-pro !important;
+  font-weight: bold;
   font-size: 35px;
-  color: black;
+  color: white;
 }
 
 
@@ -103,6 +103,8 @@ h2{
   width: 300px;
   margin-left: 20px;
   margin-top: 20px;
+  animation: loading 1s linear infinite;
+  background-color: black;
 }
 
 .image {
@@ -134,8 +136,8 @@ h2{
 }
 
 .text {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   font-size: 16px;
   padding: 16px 16px;
   font-family: playfair-display, serif;
@@ -146,10 +148,39 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  z-index: 400;
+  margin-top: 20px;
+}
+
+.fade{
+  opacity: 10%;
+  background-color: black;
+  background-image: url("../images/black.jpg");
+  z-index: 200;
+}
+
+.fade:hover{
+  opacity: 100%;
+  transition: opacity 1s;
+  background-image: url("../images/black.jpg");
+
 }
 
 
+.gallery-text{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 450px;
+  font-size: 60px;
+  font-family: noto-sans, sans-serif;
+  font-weight: bold;
+}
 
+.background{
+  background-image: url("../images/black.jpg");
+  position: absolute;
+}
 /*
 Sources:
 - image hover styles adapted from W3 schools */

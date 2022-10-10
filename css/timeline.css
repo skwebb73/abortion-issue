@@ -242,6 +242,7 @@ Main Components
 .cd-timeline-navigation a.inactive::after {
   background-position: 0 -16px;
 }
+
 .no-touch .cd-timeline-navigation a.inactive:hover {
   border-color: #13294B;
 }
