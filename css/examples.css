@@ -311,7 +311,7 @@ h1{
 }
 
 #section2{
-	background-image: url("../image/abortion-issue-web.jpg");
+	background-image: url("../images/abortion-issue-web.jpg");
   background-position: right;
 }
 
@@ -331,27 +331,37 @@ h1{
 }
 
 #section6{
-	background-image: linear-gradient(black, black, black);
+	background-image: url("../images/abortion-issue-web.jpg");
+  background-position: right;
 }
 
 #section7{
+	background-image: url("../images/abortion-issue-web.jpg");
+  background-position: right;
+}
+
+#section8{
+	background-image: linear-gradient(black, black, black);
+}
+
+#section9{
 	background-image: linear-gradient(black, black, black);
 }
 
 
-#section8{
+#section10{
   background-image: url("../images/black.jpg");
 }
 
-#section9{
+#section11{
   background-image: linear-gradient(black, black, black);
 }
 
-
-@media only screen and (min-width: 768px) {
+/*
+@media (min-width: 768px) {
   #section1, #section2, #section3, #section4, #section5{
     background-image: url("../images/abortion-issue-noheadlines.jpg");
     background-position: center;
 
-  }
+  } */
 }

@@ -59,6 +59,8 @@ h2{
 	#section3,
   #section4,
   #section5,
+  #section6,
+  #section7,
     #slide1,
     #slide2{
 		background-size: cover;
@@ -185,15 +187,6 @@ h2{
 
 /*123 slide css */
 
-.top3{
-  margin-top: 40px;
-}
-
-.top3 img{
-  margin-left: 100px;
-  margin-right: 100px;
-
-}
 
 #three{
   padding-bottom: 20px;
@@ -221,14 +214,20 @@ h3{
 .three-row{
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .mobile-head{
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+.feature-head:hover{
+  color: #78437D ;
+}
+
+
+/*
+@media (min-width: 768px) {
   .masthead{
     margin-left: -200px;
     margin-top: 100px;
@@ -264,20 +263,11 @@ h3{
     }
 
 
-  }
+  } */
 
 
 
 
-
-
-
-
-
-
-
-
-}
 /*
 Sources:
 - image hover styles adapted from W3 schools */
