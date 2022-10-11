@@ -25,10 +25,11 @@
 }
 
 .scroll-text{
-  background: linear-gradient(to right, grey, 50%, transparent);
-  width: 500px;
-  margin-left: 20px;
+  /* background: linear-gradient(to right, grey, 50%, transparent); */
+  width: 700px;
+  margin-left: 40px;
   margin-top: 19%;
+  text-align: left;
 }
 
 .scroll-text > h1{
@@ -65,7 +66,7 @@ h2{
 	}
 
   .cd-horizontal-timeline p{
-    color: #13294B !important;
+    color: white !important;
     font-family: myriad-pro, sans-serif;
   }
 
@@ -74,8 +75,15 @@ h2{
   }
 
   .cd-horizontal-timeline h2{
-    color: #13294B;
+    color: white;
   }
+
+.masthead{
+  position: absolute;
+  width: 250px;
+  margin-left: -680px;
+  margin-top: 50px;
+}
 
 
 .timeline-head{
@@ -83,39 +91,10 @@ h2{
   font-family: noto-sans, sans-serif;
   font-weight: bold;
   margin-top: 200px;
-  color: #13294B;
-}
-
-.slide-head{
-  font-size: 60px;
-  font-family: noto-sans, sans-serif;
-  font-weight: bold;
-  margin-top: 100px;
-  text-align: center;
-  color: #13294B;
-  margin-right: 100px;
-}
-
-.slide-section{
-  width: 800px;
-  justify-content: right;
-  margin-right: 0px;
-  margin-left: 40%;
-}
-
-.list{
-  list-style-type: circle;
   color: white;
-  font-size: 25px;
-  font-family: myriad-pro, sans-serif;
-  text-align: left;
-  margin: 20px;
 }
 
 
-.slide-section a{
-  color: #13294B;
-}
 /* photo gallery css */
 
 .photo-container {
@@ -201,97 +180,104 @@ h2{
   background-image: url("../images/black.jpg");
   position: absolute;
 }
-/*
-quiz css */
 
-.question{
-  color: black !important;
+
+
+/*123 slide css */
+
+.top3{
+  margin-top: 40px;
+}
+
+.top3 img{
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+#three{
+  padding-bottom: 20px;
+}
+
+.top3-column p{
+  text-align: left;
+  font-size: 15px;
+  font-family: myriad-pro, sans-serif;
+}
+
+h3{
+  font-family: playfair-display, serif;
+  color: white;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 20px;
+}
+.top3-column{
+  width: 33%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-#quiz h4{
-  font-size: 50px;
-  font-family: myriad-pro !important;
-  font-weight: bold;
-  font-size: 35px;
-  color:  #13294B;
+.three-row{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
 }
 
-#quiz{
-  margin-top: 70px;
-  margin-left: 30px;
-}
-
-#quiz-home-btn{
-  margin-top: 20px;
-  font-size: 30px;
-}
-
-#quiz-start-screen{
-  margin-top: 20px;
-}
-
-.question-container{
-  margin-top: 20px;
-}
-#quiz-counter{
-  margin-top: 10px;
-  font-size: 15px;
-}
-
-.answers{
-  font-size: 15px;
-}
-
-
-.sources{
-  margin-top: 20px;
-  text-align: left;
-  margin-left: 40px;
-}
-
-.source-list{
-  list-style-type: circle;
-  color: white;
-  font-size: 18px;
-  font-family: myriad-pro, sans-serif;
-  margin-left: 40px;
-  margin-top: 7px;
-  text-align: left;
-}
-
-
-@media (max-width: 600px) {
-
-.main-head{
+.mobile-head{
   display: none;
 }
 
-.scroll-text{
-  margin-left: none;
-  justify-content: center;
+@media only screen and (min-width: 768px) {
+  .masthead{
+    margin-left: -200px;
+    margin-top: 100px;
+    width: 400px;
+  }
+
+  .typewriter{
+    display: none;
+  }
+
+  .mobile-head{
+    padding-top: 150px;
+    display: block;
+    font-size: 15px;
+  }
+
+  .scroll-text{
+    background-color: black;
+    font-size: 280px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50%;
+
+    .three-row{
+      display: block;
+    }
+
+    .top3-column{
+      display:block;
+      width: 300px !important;
+    }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 }
-
-.slide-section{
-  width: 500px;
-  margin-left: -100px;
-  background-color: white;
-}
-
-.photo-gallery{
-  width: 100%;
-  height: 700px;
-}
-
-h2{
-  color: black;
-}
-
-}
-
-
 /*
 Sources:
 - image hover styles adapted from W3 schools */

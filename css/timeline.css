@@ -10,7 +10,7 @@ html {
 
 body {
   font-size: 1em;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "myriad-pro", sans-serif;
   color: #fff;
   background-color: #261C21;
 }
@@ -90,7 +90,7 @@ Main Components
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #13294B;
+  background-color: #78437D;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -157,18 +157,18 @@ Main Components
   transition: background-color 0.3s, border-color 0.3s;
 }
 .no-touch .cd-horizontal-timeline .events a:hover::after {
-  background-color: #13294B;
+  background-color: #78437D;
   border-color: #fff;
 }
 .cd-horizontal-timeline .events a.selected {
   pointer-events: none;
 }
 .cd-horizontal-timeline .events a.selected::after {
-  background-color: #13294B;
-  border-color: #13294B;
+  background-color: #78437D;
+  border-color: #78437D;
 }
 .cd-horizontal-timeline .events a.older-event::after {
-  border-color: #13294B;
+  border-color: #78437D;
 }
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
@@ -231,10 +231,10 @@ Main Components
 }
 .cd-timeline-navigation a.next {
   right: 0;
-  color: #fff;
+  color: #9D72AA;
 }
 .no-touch .cd-timeline-navigation a:hover {
-  border-color: #13294B;
+  border-color: #78437D;
 }
 .cd-timeline-navigation a.inactive {
   cursor: not-allowed;
@@ -244,7 +244,7 @@ Main Components
 }
 
 .no-touch .cd-timeline-navigation a.inactive:hover {
-  border-color: #13294B;
+  border-color: #78437D;
 }
 
 .cd-horizontal-timeline .events-content {
@@ -321,7 +321,7 @@ Main Components
   content: '- ';
 }
 .cd-horizontal-timeline .events-content p {
-  font-size: 1.5em !important;
+  font-size: 1.5!important;
   color: #fff;
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
