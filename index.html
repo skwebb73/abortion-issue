@@ -23,13 +23,15 @@
 <div id="fullpage">
 	<div class="section " id="section0">
 			<a href="https://www.dailytarheel.com" target="_blank"><div>
-			<img class="masthead" src="images/masthead.png" alt="The Daily Tar Heel masthead" /></div></a>
+			<div class="dth-mast">
+				<img class="masthead" src="images/masthead.png" alt="The Daily Tar Heel masthead" /></div></a>
+			</div>
 			<div class = "typewriter main-head">
 				<h1>THE ABORTION ISSUE</h1>
 			</div>
-			<!-- <div class = "typewriter mobile-head">
+			<div class = "typewriter mobile-head">
 				<h1> THE <br />ABORTION<br /> ISSUE </h1>
-			</div> -->
+			</div>
 
 	</div>
 	<div class="section" id="section1">
@@ -88,12 +90,12 @@
 									<a href="https://www.dailytarheel.com/fec4671c-4347-434c-ae7c-7e8483dee75b" target="_blank"><h2 class="feature-head">Abortion clinic volunteer esscorts continue to work in a post-Roe North Carolina</h2></a>
 								<h3>By: Lucy Marques</h3>
 								<p>
-									Shannon, who is referred to only by her first name for safety concerns, began volunteering as an escort at one of the busiest abortion clinics in North Carolina over three years ago. According to Planned Parenthood, volunteer clinic escorts help patients get through the front door with as little harassment from protesters and picketers as possible.
+									Volunteer clinic escorts help patients get through the front door with as little harassment from protesters and picketers as possible. Over three years ago, Shannon began volunteering as an escort at one of the busiest abortion clinics in North Carolina.
 								</p>
 							</div>
 							<div class="col-lg-4 top3-column">
 								<img src="images/Asset 21.png" alt="University" />
-							<a href="https://www.dailytarheel.com/3a558f0d-6ca7-494a-8a0a-fe475933f62f"target="_blank">	<h2 class="feature-head">Abortion costs in North Carolina are higher than most believe</h2></a>
+							<a href="https://www.dailytarheel.com/3a558f0d-6ca7-494a-8a0a-fe475933f62f"target="_blank">	<h2 class="feature-head">How much does it cost to have an abortion in North Carolina?</h2></a>
 								<h3>By: Abby Pender</h3>
 								<p>
 									As legal standards shift in the country and in the state, costs for abortion have shifted as well. <br />Here’s what you need to know about the finances of abortion in North Carolina
@@ -104,7 +106,7 @@
 								<a href="https://www.dailytarheel.com/7df3994a-5aab-4d8c-951f-05b0126eea48"><h2 class="feature-head">Editorial: The University’s response (or, lack thereof) to Dobbs</h2></a>
 								<h3>By: Editorial Board</h3>
 								<p>
-									"Within hours of Roe v. Wade being overturned on June 24, universities across the United States issued their responses, varying in opposition, support and neutrality. UNC has since offered its silence."
+									"Within hours of Roe v. Wade being overturned on June 24, universities across the United States issued their responses, varying in opposition, support and neutrality. UNC has since offered its silence."<br />
 								</p>
 							</div>
 
@@ -234,7 +236,11 @@
 
 
 		<div class="section" id="section10">
-			<h2 class="gallery-text">A Collection of Work</h2>
+			<div class="gallery-div">
+
+		<h2 class="gallery-text">Explore the Issue</h2>
+		<h2 class="mobile-gallery-head">Explore the Issue</h2>
+		</div>
 
 			<div class="fade">
 
@@ -354,7 +360,10 @@
         verticalCentered: false,
 
         //to avoid problems with css3 transforms and fixed elements in Chrome, as detailed here: https://github.com/alvarotrigo/fullPage.js/issues/208
-        css3:false
+        css3:false,
+
+				licenseKey: 'gplv3-license'
+
     });
 </script>
 <script src="js/timeline.js"></script>

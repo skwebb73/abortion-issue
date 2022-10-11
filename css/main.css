@@ -2,7 +2,7 @@
   color: white;
   font-family: playfair-display, serif;
   font-size: 8em;
-  margin-top: 300px !important;
+  margin-top: 200px !important;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -81,10 +81,14 @@ h2{
   }
 
 .masthead{
-  position: absolute;
+
   width: 250px;
-  margin-left: -680px;
-  margin-top: 50px;
+  margin-top: 40px;
+}
+
+.dth-mast{
+  text-align: left;
+  margin-left: 40px;
 }
 
 
@@ -172,7 +176,7 @@ h2{
 .gallery-text{
   position: absolute;
   margin-top: 300px;
-  margin-left: 450px;
+  margin-left: 500px;
   font-size: 60px;
   font-family: noto-sans, sans-serif;
   font-weight: bold;
@@ -225,13 +229,26 @@ h3{
   color: #78437D ;
 }
 
+.mobile-gallery-head{
+  display: none;
+}
 
-/*
-@media (min-width: 768px) {
-  .masthead{
-    margin-left: -200px;
-    margin-top: 100px;
-    width: 400px;
+
+@media (max-width: 575.98px) {
+
+  .scroll-text{
+    background-color: black !important;
+    max-width: 400px;
+    margin-left: 5px;
+    margin-top: 50%;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  .scroll-text h2{
+    font-size: 20px;
   }
 
   .typewriter{
@@ -241,29 +258,114 @@ h3{
   .mobile-head{
     padding-top: 150px;
     display: block;
+  }
+
+  .mobile-head h1{
+    font-size: 40px;
+    padding-top: 0px;
+    margin-top: 80px !important;
+  }
+
+  .dth-mast{
+    text-align: center;
+  }
+
+  .three-row{
+    display: block;
+
+  }
+
+  .top3-column{
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -80px;
+  }
+
+  .top3-column p{
+    text-align: center;
+  }
+
+  .feature-head{
+    font-size: 20px;
+    margin-top: -80px;
+    margin-bottom: 0px;
+  }
+
+  h3{
     font-size: 15px;
   }
 
-  .scroll-text{
-    background-color: black;
-    font-size: 280px !important;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 50%;
+  .top3-column img{
+    transform: scale(.5);
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-top: 0px;
+  }
 
-    .three-row{
-      display: block;
-    }
-
-    .top3-column{
-      display:block;
-      width: 300px !important;
-    }
+  .three-row{
+    justify-content: center;
+    margin-left: 10px;
+  }
 
 
-  } */
+  .timeline-head{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  .photo-gallery{
+    width: 500px;
+    display: block;
+  }
+
+  .photo-container{
+    width: 200px;
+  }
+
+  .dth-mast{
+    margin-left: 0px;
+  }
+
+  .middle{
+    opacity: 1;
+  }
+
+  .photo-gallery{
+    text-align: center;
+    content-align: center;
+  }
+
+  .image{
+    margin-bottom: 40px;
+    margin-left: 100px;
+  }
+
+  .gallery-text{
+    margin-top:
+  }
+
+
+
+  .gallery-text{
+    position: absolute;
+    margin-top: 0px;
+    font-size: 60px;
+
+  }
+
+  .gallery-div{
+    text-align: center;
+  }
+
+  .mobile-gallery-head{
+    display: block;
+    margin-top: 20px;
+  }
+
+}
+
 
 
 
