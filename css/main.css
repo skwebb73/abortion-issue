@@ -290,6 +290,7 @@ h3{
   margin-top: 5px;
   margin-bottom: 0px;
   font-style: italic;
+  color: black;
 
 }
 
@@ -298,7 +299,18 @@ h3{
   color: black;
 }
 
+.bottom-mast{
+  text-align: center;
+}
 
+.bottom-mast img{
+  margin-top: 13px;
+  width: 200px;
+}
+
+.timeline-cred{
+  margin-top: 10px;
+}
 
 @media (max-width: 575.98px) {
 
@@ -390,6 +402,10 @@ h3{
     width: 200px;
   }
 
+  .fade{
+    opacity: 0;
+  }
+
   .dth-mast{
     margin-left: 0px;
   }
@@ -447,6 +463,40 @@ h3{
     transform: scale(.5);
   }
 
+  .list-of-staff{
+    margin: -165px;
+  }
+
+  .project-creds{
+    margin-top:80px;
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+
+  .cover-art{
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+
+  .timeline-cred{
+    margin-top: -3px;
+    font-size: 25px;
+  }
+
+  #section1,#section2, #section3, #section4, #section5, #section6, #section7{
+  	background-image: url("../images/abortion-issue-noheadlines.jpg");
+    background-position: center;
+  }
+
+  .bottom-mast{
+    text-align: center;
+  }
+
+  .bottom-mast img{
+    margin-top: 30px;
+    width: 200px;
+  }
 
 }
 
