@@ -155,7 +155,6 @@ h2{
   align-items: center;
   background-color: black;
   z-index: 400;
-  margin-top: 10px;
 }
 
 .fade{
@@ -279,16 +278,21 @@ h3{
 
 .project-creds{
   color: black;
-  font-size: 25;
+  font-size: 20;
   /* font-style:italic; */
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: myriad-pro, sans-serif;
+}
+
+.top-cred{
+  font-weight: bold;
+  margin-top: 8px;
 }
 
 .cover-art{
   font-size: 15px;
   margin-top: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
   font-style: italic;
   color: black;
 
@@ -304,12 +308,21 @@ h3{
 }
 
 .bottom-mast img{
-  margin-top: 13px;
+  margin-top: 7px;
   width: 200px;
 }
 
 .timeline-cred{
-  margin-top: 10px;
+  margin-top: 5px;
+}
+
+.bottom-link{
+  margin-top: 0px;
+}
+
+.bottom-link{
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 @media (max-width: 575.98px) {
@@ -467,15 +480,16 @@ h3{
     margin: -165px;
   }
 
+
   .project-creds{
-    margin-top:80px;
+    margin-top:70px;
     font-size: 25px;
     margin-bottom: 0px;
   }
 
   .cover-art{
     font-size: 20px;
-    margin-top: -15px;
+    margin-top: -35px;
     margin-bottom: 15px;
   }
 
@@ -484,10 +498,6 @@ h3{
     font-size: 25px;
   }
 
-  #section1,#section2, #section3, #section4, #section5, #section6, #section7{
-  	background-image: url("../images/abortion-issue-noheadlines.jpg");
-    background-position: center;
-  }
 
   .bottom-mast{
     text-align: center;
@@ -498,6 +508,25 @@ h3{
     width: 200px;
   }
 
+  .fade{
+    opacity: 100%;
+
+  }
+
+  .background{
+    display: none;
+  }
+
+  .photo-container:hover .middle {
+    opacity: 100;
+
+  }
+
+    #section1,#section2, #section3, #section4, #section5, #section6, #section7{
+    	background-image: url("../images/abortion-issue-noheadlines.jpg");
+      background-position: center;
+    }
+
 }
 
 
@@ -506,4 +535,8 @@ h3{
 
 /*
 Sources:
-- image hover styles adapted from W3 schools */
+Image hover styles adapted from W3 schools
+Slider: https://alvarotrigo.com/fullPage/
+Typewriter: https://www.jqueryscript.net/blog/best-typewriter-typing-animation.html
+Timeline: https://codepen.io/carrrter/pen/ELLmyX
+ */
